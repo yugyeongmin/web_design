@@ -1,3 +1,38 @@
-.text {
-    color:red;
+h1 {
+    color:blueviolet
+}
+ul{
+    width: 400px;
+}
+li{
+    text-align: left;
+}
+table{
+    width: 600px;
+}
+table, td{
+    border: 1px solid;
+    border-collapse: collapse;
+    margin: 5px auto;
+    padding: 5px;
+}
+
+table .target {
+    background-color: beige;
+}
+
+#github_logo{
+    width: 30%;
+    height: auto;
+}
+
+section{
+    max-width: 680px;
+    margin-top: 20px;
+    padding: 40px;
+    box-shadow: 2px 4px 4px 2px rgba(0,0,0,0.3)
+}
+#section1{
+    background-color: #f0f0fb;
+    border-radius: 30px;
 }
