@@ -1,0 +1,64 @@
+p{
+    color:#222;
+    width:400px;
+}
+
+.list_description {
+    border-bottom: 1px solid
+}
+
+.disc_list{
+    list-style: disc;
+}
+.circle_list{
+    list-style: circle;
+}
+.square_list{
+    list-style: square;
+}
+.none_bullet{
+    list-style: none;
+}
+
+ol li{
+    list-style: decimal-leading-zero;
+}
+.img_list li{
+    list-style: none;
+    background: url(star.png) no-repeat;
+    background-size: 30px;
+    padding: 0 0 0 25px
+}
+
+.prize li {
+    list-style: none;
+    background-size: 30px;
+    padding: 0 0 0 25px
+}
+
+.prize li:nth-child(100n+1){
+    background: url(star.png) no-repeat;
+    background-size: 30px;
+    padding: 0 0 0 25px
+}
+.prize li:nth-child(100n+2){
+    background: url(leaves-stars.png) no-repeat;
+    background-size: 30px;
+    padding: 0 0 0 25px
+}
+.prize li:nth-child(100n+3){
+    background: url(littledeep_star.png) no-repeat;
+    background-size: 30px;
+    padding: 0 0 0 25px
+}
+.style_dl {
+    width: 400px;
+    height: 100px;
+    overflow: auto;
+}
+.style_dl dt{
+    float: left;
+}
+.style_dl dd{
+    margin: 0 0 1em 0;
+}
