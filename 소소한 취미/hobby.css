@@ -1,0 +1,37 @@
+body{
+    font-family: "맑은 고딕", "고딕", "굴림";
+}
+
+@font-face{
+    font-family: GmarketSansTTFMedium;
+    src:url('GmarketSansTTFMedium.ttf');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: GmarketSansTTFLight;
+    src:url('GmarketSansTTFLight.ttf');
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: GmarketSansTTFBold;
+    src:url('GmarketSansTTFBold.ttf');
+    font-weight: bolder;
+}
+
+head {
+    font-family: GmarketSansTTFMedium;
+}
+
+body {
+    font-family: GmarketSansTTFLight;
+}
+body h1 {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:antiquewhite;
+    padding: 10px;
+    overflow: hidden;
+}

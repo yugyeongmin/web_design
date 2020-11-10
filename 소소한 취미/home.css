@@ -1,0 +1,46 @@
+body{
+    font-family: "맑은 고딕", "고딕", "굴림";
+}
+
+@font-face{
+    font-family: GmarketSansTTFMedium;
+    src:url('GmarketSansTTFMedium.ttf');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: GmarketSansTTFLight;
+    src:url('GmarketSansTTFLight.ttf');
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: GmarketSansTTFBold;
+    src:url('GmarketSansTTFBold.ttf');
+    font-weight: normal;
+}
+
+head {
+    font-family: GmarketSansTTFMedium;
+}
+
+body {
+    font-family: GmarketSansTTFLight;
+}
+body h1 {
+    color: burlywood;
+}
+
+caption {
+    border-bottom: 0.5px solid
+}
+table {
+    width: 400px;
+}
+td {
+    padding: 20px;
+    background-color:floralwhite;
+}
+p {
+    color:#b18c39;
+}
