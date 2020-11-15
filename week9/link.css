@@ -1,0 +1,30 @@
+#dummy {
+    height: 400px;
+}
+a{
+    text-decoration: none;
+    color:crimson;
+}
+a link{
+    color: aquamarine;
+}
+a:hover{
+    color: antiquewhite;
+}
+
+a:visited{
+    color: darkgreen;
+}
+
+a:target{
+    background-color: darkgoldenrod;
+    color:antiquewhite;
+}
+a:active{
+    color: darkorange;
+}
+
+#
+#description{
+    height: 600px;
+}
