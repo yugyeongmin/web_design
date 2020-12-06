@@ -1,0 +1,104 @@
+body{
+    font-family: "맑은 고딕", "고딕", "굴림";
+}
+
+@font-face{
+    font-family: GmarketSansTTFMedium;
+    src:url('GmarketSansTTFMedium.ttf');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: GmarketSansTTFLight;
+    src:url('GmarketSansTTFLight.ttf');
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: GmarketSansTTFBold;
+    src:url('GmarketSansTTFBold.ttf');
+    font-weight: normal;
+}
+
+head {
+    font-family: GmarketSansTTFMedium;
+}
+
+body {
+    font-family: GmarketSansTTFLight;
+    margin: 300;
+    padding: inherit;
+}
+body h1 {
+    color: #ff9000;
+    font-size: 40pt;
+}
+header{
+    width: 80%;
+    margin: auto;
+    background-color: #ff9000;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    overflow: hidden;
+    padding-left: 50px;
+}
+#emp_nav {
+    width:40%;
+    text-align: left;
+    margin:5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#emp_nav nav{
+    border-top: 15px solid #fff;
+    /*border-bottom: 1px solid #ff9000;*/
+    background: #fff;
+}
+
+#emp_nav nav ul{
+    overflow:hidden;
+    list-style: none;
+    margin:0 auto;
+    padding:0;
+    max-width:800px;
+}
+
+#emp_nav nav li{
+    box-sizing: border-box;
+    float:left;
+    border-right: 1px solid #fff;
+    width:25%;
+}
+#emp_nav nav li:last-child {
+    border-right: 0;
+}
+#emp_nav nav a{
+    color:#000;
+    text-decoration: none;
+    display: block;
+    padding:30px 0;
+    width:100%;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px 20px 0 0 
+}
+#emp_nav nav a:hover{
+    background: #ff9000;
+    color:#fff;
+}
+
+
+#emp_nav .nav_portfolio{
+    background: #ff9000;
+    color:#fff;
+}
+
+h2 {
+    font-size: 30pt;
+}
+h3 {
+    font-size: 30pt;
+}
+p{
+    font-size: 30pt;
+}
